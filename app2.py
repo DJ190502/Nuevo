@@ -25,7 +25,7 @@ st.latex(r"E = mc^2")
 st.header("2. Multimedia")
 st.image("static/image/polo.jpg", caption="2.1. Imagen de ejemplo")
 st.audio("static/audio/night-detective-226857.mp3", format="audio/mp3")
-st.video("static/video/VID_20250612_112422.mp4")
+st.video("static/video/test.mp4", format="video/mp4")
 
 # Widgets de interacción
 st.header("3. Widgets básicos")
