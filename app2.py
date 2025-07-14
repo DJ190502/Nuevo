@@ -116,7 +116,7 @@ for i in range(100):
     time.sleep(0.005)
 
 # Caching
-@st.cache
+@st.cache_data  
 def cargar_datos(n):
     return np.random.randn(n, 3)
 
